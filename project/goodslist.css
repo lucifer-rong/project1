@@ -1,0 +1,85 @@
+.layout{width: 1198px;margin: 0 auto;}
+#top{background: #f2f2f2;}
+#top p{float: left;font: 12px/31px "";color: #878787;}
+#top a{color: #878787;}
+#top p .active{color: #545454;margin-right: 7px;font-weight: 700;}
+#top p .active:hover{color:#dc0403;}
+#top .top-r{float: right;font: 12px/31px "";color:#878787;}
+#top .top-r a{float: left;}
+#top .top-r a:hover{color: #dc0403;text-decoration: underline;background: #fff;}
+#top .top-r span{padding: 0 11px;float: left;}
+
+header .logo{float: left;margin: 32px 20px 0;padding-bottom: 35px;}
+header .header-c{float: left;margin:32px 0 0 60px;}
+header input{border: 0;float:left;}
+header input.txt{width: 420px;height: 38px;border: 2px solid #dc0403;padding: 5px;box-sizing: border-box;color: #878787}
+header input.btn{background: #dc0403;height: 38px;font-size: 16px;padding: 0 15px;color: #fff;}
+header .gocar{display:block;background: #f9f9f9;border: 1px solid #efefef;width: 148px;float: left;text-align: center;font: 12px/38px "";color:#767676;margin:32px 0 0 56px;}
+header .gocar img{width: 22px;height: 17px;}
+header .gocar i{color: #dc0403;}
+header #erma{float:right;margin: 16px 3px 0 0 ;}
+nav{border-bottom: 2px solid #dc0403;}
+nav .layout{position: relative;}
+nav .daohang{margin-left: 226px;}
+nav .daohang li{float: left;font:700 16px/34px "";padding: 0 30px;}
+nav .daohang li a{color:#000;}
+nav .daohang li a:hover{color:#dc0403;}
+
+nav .sort{position: absolute;left: 0;top: 0;width: 226px;background:#fff;z-index: 1;border-left: 1px solid #e7e7e7;border-right:1px solid #e7e7e7;}
+nav .sort h3{font:700 16px/36px "";color: #fff;background: #dc0403;text-align: center;}
+nav .sort .menu{display: none;}
+nav .sort .menu li{width: 226px;font: 13px/35px "";cursor: pointer;}
+nav .sort .menu li a{float:left;color: #000;margin-left: 24px;}
+nav .sort .menu li span{float: right;margin-right: 15px;color: #545454;}
+
+
+.liebiao{margin-top:20px;padding-bottom:20px;}
+.liebiao .cont3{display: flex;justify-content:space-around;flex-wrap: wrap;}
+.liebiao .cont3 li{width: 262px;height: 417px;box-sizing: border-box;border: 1px solid #9c9c9c;margin-bottom: 5px;}
+.liebiao .cont3 li img{width: 260px;height: 260px;display: block;}
+.liebiao .cont3 li p{font: 14px/24px "";color: #777;text-align: center}
+.liebiao .cont3 li span{font: 16px/30px "";color: #dc0403;text-align: center;display: block;}
+.liebiao .cont3 li em{display:block;width: 100px;height: 50px ;background: #dc0403;text-align: center;font: 16px/50px "";color: #fff;margin:0 auto;border-radius: 6px;cursor: pointer;}
+
+
+
+
+
+
+
+footer{background: #f2f2f2;}
+footer .footer-t{margin-top: 40px;display:flex;justify-content:space-around;padding-bottom: 20px;}
+footer .footer-t .f1{}
+footer .footer-t .xian{height: 80px;width: 1px;background: #e7e7e7;}
+footer .footer-t ul{}
+footer .footer-t ul li{}
+footer .footer-t ul li.te{font: 18px/38px "";color: #000;}
+footer .footer-t ul li a{font: 12px/20px "";color: #9c9c9c;}
+footer .footer-t .f1 .img{float:left; }
+footer .footer-t .f1 .img p{text-indent: 14px;font: 12px/20px "";color: #9c9c9c;}
+footer .footer-t .f1 .tel{float: left;margin: 0 0 0 14px;}
+footer .footer-t .f1 .tel span{font: 18px/30px "";color: #000;}
+footer .footer-t .f1 .tel i{font: 12px/26px "";color:#9c9c9c;}
+
+footer .flk{padding-bottom: 14px;margin: 0 auto;width: 1000px;}
+footer .flk .lianj{float:left;width:70px;line-height: 50px;}
+footer .flk .q1{float: left;width: 900px; float: left;  margin-top: 13px; line-height: 25px; margin-bottom: 20px;}
+footer .flk .q1 a{color: #9c9c9c;float: left;padding-right: 30px;cursor: pointer;}
+
+
+
+footer .footer-b{border-top: 2px #dc0403 solid;padding-bottom: 25px;}
+footer .us{text-align: center;font: 12px/42px "";color: #9c9c9c;}
+footer .us a {color: #9c9c9c;}
+footer .us span{padding: 0 19px;}
+footer .cpy{text-align: center;font-size: 12px;color: #9c9c9c;}
+
+.rightFixed{position:fixed;right:11px;z-index:88;bottom:100px;}
+.rightNav a{margin-bottom:3px;position:relative;display:block;height:44px;width:44px;}
+.rightNav a:hover i{background-color:#c40000;}
+.rightNav a>i{display:block;height:100%;background:#bfbfbf url(images/rightfixed.png) no-repeat 0 0;position:relative;z-index:2;}
+.rightNav .rF1>i{background-position:0 0;}
+.rightNav .rF2>i{background-position:0 -44px;}
+.rightNav .rF3>i{background-position:0 -88px;}
+.rightNav .rF4>i{background-position:0 -132px;}
+.rightNav a .showBox{color:white;background-color:#c40000;padding:0 10px;position:absolute;right:0;top:0px;white-space:nowrap;display:none;z-index:1;height:44px;line-height:44px;font-size:14px;}
